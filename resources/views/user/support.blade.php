@@ -15,7 +15,7 @@
                     <div class="h-full">
                         <h5 class="mb-1 dark:text-white">Austin@fortressunion.org</h5>
                         <p class="mb-0 font-semibold leading-normal dark:text-white dark:opacity-60 text-sm">
-                            ACCOUNT MANAGER</p>
+                            ACCOUNT MANAGER </p>
                     </div>
                 </div>
                 <div class="w-full max-w-full px-3 mx-auto mt-4 sm:my-auto sm:mr-0 md:w-1/2 md:flex-none lg:w-4/12">
