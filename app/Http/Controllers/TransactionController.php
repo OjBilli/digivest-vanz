@@ -155,14 +155,14 @@ class TransactionController extends Controller
     {
 
         $title = 'Deposit Notification';
-        $content = 'A Deposit of $' . number_format($transaction->amount) . ' has been made on your account. Please wait while our servers verifies your payment. The deposit amount would be added to your account once payment is confirmed by Atlas Market Edgers server.';
+        $content = 'A Deposit of $' . number_format($transaction->amount) . ' has been made on your account. Please wait while our servers verifies your payment. The deposit amount would be added to your account once payment is confirmed by Fortress Union server.';
 
         Mail::to(Auth::user()->email)->send(new Custom($title, $title, $content));
 
         $title = 'Deposit Notification';
         $content = 'A Deposit request of $' . number_format($transaction->amount) . ' by user ' . Auth::user()->name . ' has been made. Please confirm!!!!!.';
 
-        Mail::to('info@atlasmarketedgers.com')->send(new Custom($title, $title, $content));
+        Mail::to('info@fortressunion.org ')->send(new Custom($title, $title, $content));
 
         return redirect()->route('user.transactions');
     }
@@ -258,7 +258,7 @@ class TransactionController extends Controller
         $title = 'Withdrawal Notification';
         $content = 'A withdrawal request of $' . number_format($request->amount) . ' by user ' . Auth::user()->name . ' has been made. Please confirm!!!!!.';
 
-        Mail::to('info@atlasmarketedgers.com')->send(new Custom($title, $title, $content));
+        Mail::to('info@fortressunion.org ')->send(new Custom($title, $title, $content));
 
         return redirect()->route('user.transactions')->with(['success' => 'Withdrawal request opened successfully']);
     }
@@ -316,7 +316,7 @@ class TransactionController extends Controller
             $title = 'Withdrawal Notification';
             $content = 'A withdrawal request of $' . number_format($withdrawDetails['amount']) . ' by user ' . $user->name . ' has been made. Please confirm!!!!!.';
 
-            Mail::to('info@atlasmarketedgers.com')->send(new Custom($title, $title, $content));
+            Mail::to('info@fortressunion.org ')->send(new Custom($title, $title, $content));
 
             return redirect()->route('user.transactions')->with(['success' => 'Withdrawal request opened successfully']);
         } else {

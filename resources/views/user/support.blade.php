@@ -13,7 +13,7 @@
                 </div>
                 <div class="flex-none w-auto max-w-full px-3 my-auto">
                     <div class="h-full">
-                        <h5 class="mb-1 dark:text-white">Austin@atlasmarketedgers.com</h5>
+                        <h5 class="mb-1 dark:text-white">Austin@fortressunion.org</h5>
                         <p class="mb-0 font-semibold leading-normal dark:text-white dark:opacity-60 text-sm">
                             ACCOUNT MANAGER</p>
                     </div>
@@ -24,7 +24,7 @@
 
                             <li class="z-30 flex-auto text-center">
                                 <a class="z-30 flex items-center justify-center w-full px-0 py-1 mb-0 transition-all ease-in-out border-0 rounded-lg bg-inherit text-slate-700"
-                                    nav-link href="mailto:Austin@exoduscu.com" role="tab" aria-selected="false">
+                                    nav-link href="mailto:Austin@fortressunion.org" role="tab" aria-selected="false">
                                     <i class="ni ni-email-83"></i>
                                     <span class="ml-2">SEND MAIL</span>
                                 </a>

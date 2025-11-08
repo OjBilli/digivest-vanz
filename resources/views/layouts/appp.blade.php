@@ -16,7 +16,7 @@
 <head>
 
     <meta charset="utf-8">
-    <title>Atlas Market Edgers</title>
+    <title>FORTRESS UNION</title>
 
     <meta name="author" content="themesflat.com">
 

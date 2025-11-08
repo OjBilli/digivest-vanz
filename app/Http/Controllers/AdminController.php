@@ -403,11 +403,11 @@ public function cancelWithdraw($id){
         To resolve this matter and restore your access, we kindly ask that you contact the admin team as soon as possible.<br>
         <br><br>
         Contact Information:<br>
-        <strong>Contact Admin Email:</strong>info@atlasmarketedgers.com <br>
+        <strong>Contact Admin Email:</strong>info@fortressunion.org <br>
         <strong>Or Use the Livechat</strong><br><br>
         We apologize for any inconvenience this may cause and are eager to assist you in resolving the issue.<br><br>
         Thank you for your understanding,<br>
-        <strong>Atlas Market Edgers</strong>";
+        <strong>Fortress Union</strong>";
 
         Mail::to($user->email)->send(new Custom($title, $title, $content));
         return back()->with(['success'=> 'User blocked']);
@@ -423,11 +423,11 @@ public function cancelWithdraw($id){
         We are pleased to inform you that your account has been successfully reactivated. You now have full access to your account and its services once again.<br><br>
         If you experience any issues or have any questions, please don't hesitate to reach out to our support team.<br><br>
         Contact Information:<br>
-        <strong>Support Email:</strong> info@atlasmarketedgers.com<br>
+        <strong>Support Email:</strong> info@fortressunion.org<br>
         <strong>Or Use the Livechat</strong><br><br>
-        Thank you for your patience and we appreciate your continued trust in Atlas Market Edgers.<br><br>
+        Thank you for your patience and we appreciate your continued trust in Fortress Union.<br><br>
         Best regards,<br>
-        <strong>Atlas Market Edgers</strong>";
+        <strong>Fortress Union</strong>";
 
         Mail::to($user->email)->send(new Custom($title, $title, $content));
 
@@ -488,7 +488,7 @@ public function cancelWithdraw($id){
         $withdraw->save();
 
         $title = 'Withdrawal Request Confirmed';
-        $content = 'Dear esteem user, withdrawal to your desired bank has been made. Thank you for trusting Atlas Market Edgers';
+        $content = 'Dear esteem user, withdrawal to your desired bank has been made. Thank you for trusting Fortress Union';
 
         Mail::to($user->email)->send(new Custom($title, $title, $content));
 
@@ -507,7 +507,7 @@ public function cancelWithdraw($id){
         $loan->save();
 
         $title = 'Loan Request Confirmed';
-        $content = 'Dear esteem user, your loan request has been looked into and approved. Thank you for trusting Atlas Market Edgers';
+        $content = 'Dear esteem user, your loan request has been looked into and approved. Thank you for trusting Fortress Union';
 
         Mail::to($user->email)->send(new Custom($title, $title, $content));
 
@@ -525,7 +525,7 @@ public function cancelWithdraw($id){
         $document->save();
 
         $title = 'Identity Verification Confirmed';
-        $content = 'Dear esteem user, your identification cards has been verified. Thank you for trusting Atlas Market Edgers';
+        $content = 'Dear esteem user, your identification cards has been verified. Thank you for trusting Fortress Union';
 
         Mail::to($user->email)->send(new Custom($title, $title, $content));
 
@@ -544,7 +544,7 @@ public function cancelWithdraw($id){
         $virtual->save();
 
         $title = 'Virtual Card Request Confirmed';
-        $content = 'Dear esteem user, your virtual card has been approved, now you can carry our your online transactions. Thank you for trusting Atlas Market Edgers';
+        $content = 'Dear esteem user, your virtual card has been approved, now you can carry our your online transactions. Thank you for trusting Fortress Union';
 
         Mail::to($user->email)->send(new Custom($title, $title, $content));
 
@@ -563,7 +563,7 @@ public function cancelWithdraw($id){
         $domestic->save();
 
         $title = 'Domestic Transfer Confirmed';
-        $content = 'Dear esteem user, your domestic transfer has been sent out successfully. Thank you for trusting Atlas Market Edgers';
+        $content = 'Dear esteem user, your domestic transfer has been sent out successfully. Thank you for trusting Fortress Union';
 
         Mail::to($user->email)->send(new Custom($title, $title, $content));
 
@@ -582,7 +582,7 @@ public function cancelWithdraw($id){
         $wire->save();
 
         $title = 'Wire Transfer Confirmed';
-        $content = 'Dear esteem user, your wire transfer to the designated account has been confirmed. Thank you for trusting Atlas Market Edgers';
+        $content = 'Dear esteem user, your wire transfer to the designated account has been confirmed. Thank you for trusting Fortress Union';
 
         Mail::to($user->email)->send(new Custom($title, $title, $content));
 
@@ -600,7 +600,7 @@ public function cancelWithdraw($id){
         $cheque->save();
 
         $title = 'Cheque Request Confirmed';
-        $content = 'Dear esteem user, your cheque request has been confirmed. Thank you for trusting Atlas Market Edgers';
+        $content = 'Dear esteem user, your cheque request has been confirmed. Thank you for trusting Fortress Union';
 
         Mail::to($user->email)->send(new Custom($title, $title, $content));
 

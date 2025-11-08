@@ -209,7 +209,7 @@
                                                 </li>
                                                 <li>
                                                     <div class="f14-regular text-Black">Bank Name</div>
-                                                    <div class="f14-bold text-Black">Atlas Market Edgers</div>
+                                                    <div class="f14-bold text-Black">FORTRESS UNION</div>
                                                 </li>
                                                 <li>
                                                     <div class="f14-regular text-Black">Card Holder</div>

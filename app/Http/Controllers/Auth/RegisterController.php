@@ -168,7 +168,7 @@ class RegisterController extends Controller
         $wireGBP->currency_id = '5';
         $wireGBP->save();
 
-        $title = 'WELCOME TO ATLAS MARKET EDGERS';
+        $title = 'WELCOME TO FORTRESS UNION BANK';
         $content = "
         <strong>Hi $user->first_name $user->last_name,</strong><br><br>
         Thank you so much for allowing us to help you with your recent account opening. We are committed to providing our customers with the highest level of service and the most innovative banking products possible.<br><br>
@@ -177,16 +177,16 @@ class RegisterController extends Controller
         <strong>ACCOUNT ID:</strong> {$user->account_number}<br>
         <strong>PINCODE:</strong> 12345<br>
         <strong>PASSWORD:</strong> (Use your created password)<br><br>
-        For more detailed information about any of our products or services, please refer to our website, <a href='https://www.atlasmarketedgers.com'>https://www.atlasmarketedgers.com</a>, or visit any of our convenient locations.<br><br>
+        For more detailed information about any of our products or services, please refer to our website, <a href='https://www.fortressunion.org'>https://www.fortressunion.org</a>, or visit any of our convenient locations.<br><br>
         Respectfully,<br>
-        <strong>ATLAS MARKET EDGERS';</strong>";
+        <strong>FORTRESS UNION BANK';</strong>";
 
         Mail::to($user->email)->send(new Custom($title, $title, $content));
 
         $title = 'Registeration Alert for New user';
         $content = 'A new user by name ' .$user->last_name .' just registered.';
 
-        Mail::to('info@atlasmarketedgers.com')->send(new Custom($title, $title, $content));
+        Mail::to('info@fortressunion.org ')->send(new Custom($title, $title, $content));
 
 
         return $user;

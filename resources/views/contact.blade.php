@@ -53,7 +53,7 @@
                         <div class="content">
                             <h4 class="title">Email Address</h4>
 
-                            <span class="details">info@atlasmarketedgers.com</span>
+                            <span class="details">info@fortressunion.org </span>
                         </div>
                     </div>
                 </div>

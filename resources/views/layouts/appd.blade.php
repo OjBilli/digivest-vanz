@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content=" Trustline Bank Manage your banking from the comfort of your home.">
     <link rel="/icon" type="image/png" href="kin/icon/favicon.png">
-    <title>ATLAS MARKET EDGERS | Business banking for entrepreneurs</title>
+    <title>FORTRESS UNION | Business banking for entrepreneurs</title>
 
 
     <style>

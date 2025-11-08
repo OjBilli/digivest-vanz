@@ -131,7 +131,7 @@
                                         <div class="f12-regular text-GrayDark">Message our live chat team for quick,
                                             step-by-step help linking your account as a payee.</div>
                                     </div>
-                                    <a href="mailto:info@atlasmarketedgers.com" class="tf-button f12-bold w-100">
+                                    <a href="mailto:info@fortressunion.org" class="tf-button f12-bold w-100">
                                         Email Support
                                         <i class="icon icon-send"></i>
                                     </a>

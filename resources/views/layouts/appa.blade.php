@@ -17,7 +17,7 @@
     <meta name="csrf-token" content="XWaDusAjOhPQzjZOyLu2rA7ZlnIMIFTMEscZDZzN">
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title> ATLAS MARKET EDGERS</title>
+    <title> FORTRESS UNION</title>
     <link rel="icon" type="image/png" href="/kin/home_asset/public/uploads/media/new1.png" />
     <!-- Google Font -->
     <link href="../fonts.googleapis.com/cssda8e.css?family=Heebo:400,500,700%7CMontserrat:500,700&amp;display=swap"
@@ -52,7 +52,7 @@ if(w.chaport)return;v3=w.chaport={};v3._q=[];v3._l={};v3.q=function(){v3._q.push
 
     <script type="application/manifest+json">
         {
-            "name": " ATLAS MARKET EDGERS",
+            "name": " FORTRESS UNION",
             "short_name": "Bank",
             "description": "Online Bank",
             "start_url": "/",
@@ -61,7 +61,7 @@ if(w.chaport)return;v3=w.chaport={};v3._q=[];v3._l={};v3.q=function(){v3._q.push
             "theme_color": "#000000",
             "icons": [
                 {
-                    "src": "https://www.ATLAS MARKET EDGERS.com/kin/home_asset/public/uploads/media/logo.png",
+                    "src": "https://www.FORTRESS UNION.com/kin/home_asset/public/uploads/media/logo.png",
                     "sizes": "192x192",
                     "type": "image/png"
                 }
@@ -313,10 +313,10 @@ if(w.chaport)return;v3=w.chaport={};v3._q=[];v3._l={};v3.q=function(){v3._q.push
                     <div class="col-md-6">
                         <p class="mb-0 text-white"> &copy; Copyright <span id="copyright"> 2008 - 2024 </span> <a
                                 href="{{ route('welcome') }}">
-                                ATLAS MARKET EDGERS </a> All Rights Reserved </p>
+                                FORTRESS UNION </a> All Rights Reserved </p>
                     </div>
                     <div class="col-md-6  mt-2 mt-md-0 copyright text-md-end">
-                        Developed for <a href="{{ route('welcome') }}"> ATLAS MARKET EDGERS</a>
+                        Developed for <a href="{{ route('welcome') }}"> FORTRESS UNION</a>
                     </div>
                 </div>
             </div>

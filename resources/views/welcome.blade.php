@@ -146,7 +146,7 @@
                 <div class="col-lg-6 offset-lg-1">
                     <div class="about-us-details">
                         <div class="section-title">
-                            <h6 class="subtitle">About Atlas Market Edgers</h6>
+                            <h6 class="subtitle">About Fortress Union</h6>
                             <h2 class="title">Nothing is impossible. We can help you achieve your goals!</h2>
                             <p>Online banking can save you a lot of time and effort, you can undertake most transactions from the comforts of your home. However, it is crucial to use internet banking safely.</p>
                         </div>
@@ -163,7 +163,7 @@
                                 <img src="/passets/img/about/02.png" alt="img">
                             </div>
                             <div class="media-body">
-                                <p>Atlas Market Edgers Pledge underpins our firm-wide commitment to always put clients first, and to act responsibly and transparently.</p>
+                                <p>Fortress Union Pledge underpins our firm-wide commitment to always put clients first, and to act responsibly and transparently.</p>
                             </div>
                         </div>
                         <a class="btn btn-blue" href="{{ route('about') }}">Learn More</a>

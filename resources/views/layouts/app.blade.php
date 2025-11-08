@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ATLAS MARKET EDGERS</title>
+    <title>FORTRESS UNION</title>
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="/passets/css/vendor.css">
@@ -273,7 +273,7 @@
                             <ul class="widget-list">
                                 <li></li>
                                 <li></li>
-                                <li>info@atlasmarketedgers.com</li>
+                                <li>info@fortressunion.org</li>
                                 <li></li>
                             </ul>
                         </div>
@@ -332,7 +332,7 @@
                 </div>
                 <div class="col-lg-6 align-self-center">
                     <div class="copy-right text-lg-end text-center">
-                        @ 2020, Atlas Market Edgers all right reserved
+                        @ 2020, FORTRESS UNION all right reserved
                     </div>
                 </div>
             </div>

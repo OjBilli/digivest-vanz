@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
-    <title>ATLAS MARKET EDGERS </title>
+    <title> FORTRESS UNION BANK</title>
     <link rel="icon" type="image/x-icon" href="/home_asset/dashboard.azurecreditunion.com/assets/img/favicon.ico"/>
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
     <link href="home_asset/fonts.googleapis.com/cssa1f9.css?family=Quicksand:400,500,600,700&amp;display=swap" rel="stylesheet">

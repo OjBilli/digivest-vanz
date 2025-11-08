@@ -15,7 +15,7 @@
         content="laravel admin dashboard, best laravel admin panel, laravel admin dashboard, php admin panel template, blade template in laravel, laravel dashboard template, laravel template bootstrap, laravel simple admin panel,laravel dashboard template,laravel bootstrap 4 template, best admin panel for laravel,laravel admin panel template, laravel admin dashboard template, laravel bootstrap admin template, laravel admin template bootstrap 4" />
 
     <!-- Title -->
-    <title>DASHBORD - ATLAS MARKET EDGERS</title>
+    <title>DASHBORD - FORTRESS UNION</title>
 
     <!--Favicon -->
     <link rel="icon" href="/home_asset/assets/images/brand/lines.png" type="image/x-icon" />
@@ -293,7 +293,7 @@
             <div class="container">
                 <div class="row align-items-center flex-row-reverse">
                     <div class="col-md-12 col-sm-12 text-center">
-                        Copyright © 2015 <a href="#"> <a href="www.exoduscu.com">ATLAS MARKET EDGERS</a> All
+                        Copyright © 2015 <a href="#"> <a href="www.exoduscu.com">FORTRESS UNION</a> All
                             rights reserved.
                     </div>
                 </div>
