@@ -1,0 +1,337 @@
+@import url('../../../../fonts.googleapis.com/cssaae9?family=Roboto&amp;display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+main{
+    height: 100vh;
+    font-family: 'Calibri', sans-serif;
+    display: flex;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+#login{
+    display: block;
+    animation: slide-up 300ms ease-in-out;
+}
+#resetPassword{
+    display: none;
+    animation: slide-up 300ms ease-in-out;
+}
+#recoverUsername{
+    display: none;
+    animation: slide-up 300ms ease-in-out;
+}
+#questionform{
+    display: none;
+    animation: slide-up 300ms ease-in-out;
+}
+#accountForm{
+    display: none;
+    animation: slide-up 300ms ease-in-out;
+}
+#accountTypeForm{
+    display: none;
+    animation: slide-up 300ms ease-in-out;
+}
+
+#otpForm{
+    display: none;
+    animation: slide-up 300ms ease-in-out;
+}
+
+@keyframes slide-up{
+    0%{
+        opacity: 0;
+        transform: translateY(20vh);
+    }
+    70%{
+        opacity: 0
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+.section-content{
+    flex-basis: 35%;
+}
+.section-img-container{
+    flex-basis: 65%;
+    position: relative;
+}
+.section-image{
+    height: 70vh;
+    /*background: linear-gradient(hsla(350, 50%, 50%, 0.3), hsla(350, 50%, 50%, 0.3)), url(../Assets/images/Marinagif.gif) no-repeat;
+    background-size: cover;*/
+    z-index: 20;
+}
+video{
+    /*min-height: auto;*/
+    height: 100% !important;
+    object-fit: fill;
+    width: 100%;
+   
+}
+.blue-base{
+    background: #08182e;
+    height: 30vh;
+    padding: 30px 50px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.logo{
+    padding: 25px;
+}
+.logo img{
+    height: 44px;
+    width: 130px;
+}
+.backgd-bottom{
+    background: url(../../icon/lbg.html) no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    bottom: -55%;
+    left: -10%;
+    z-index: -2;
+}
+.welcome-header{
+    text-align: center;
+    animation: slide-up-top 1s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    width: 80%;
+    /*margin: 0 auto*/
+}
+@keyframes slide-up-top{
+    0%{
+        opacity: 0;
+        transform: translateY(10vh);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+.welcome-header-image{
+    background: url(../../icon/laptopbg.png) no-repeat;
+    background-size: contain;
+    flex-basis: 50%;
+    height: 25vh;
+
+}
+.welcome-header-text{
+    flex-basis: 50%;
+}
+.welcome-header h1{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.welcome-header p{
+    color: hsl(215, 10%, 100%);
+    letter-spacing: 1px;
+}
+.login-component{
+    /*width: 80%;
+    margin: 10vh auto;*/
+    padding: 0 10%;
+    z-index: 20;
+}
+.login-component header h3{
+    font-size: 2rem;
+    color: hsl(215, 10%, 30%);
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+.login-component header p{
+    font-size: 15px;
+    color: hsl(215, 10%, 60%);
+    letter-spacing: 0.5px;
+}
+form{
+    margin: 50px 0 0;
+}
+.formset{
+    display: flex;
+    border-bottom: 1px solid #dadada;
+    margin: 40px 0;
+    padding-bottom: 5px;
+    align-items: center;
+}
+.formset label{
+    margin-right: 15px;
+}
+.formset label img{
+    height: 20px;
+    width: 20px;
+}
+.formset input, .primary-auth-button, button{
+    outline: none;
+    background: none;
+    border: none;
+    
+}
+.formset input{
+    width: 100%;
+    font-size: 15px;
+    color: hsl(215, 20%, 40%);
+    letter-spacing: 0.5px;
+}
+.formset input::placeholder{
+    font-size: 13px;
+    color: hsl(215, 10%, 85%);
+}
+.primary-auth-button{
+    background: #08182e;
+    border-radius: 10px;
+    color: white;
+    height: 50px;   
+    padding: 15px 20px;
+    width: 100%;
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
+.primary-auth-button:hover{
+    background: #fb8c00;
+    transition: 0.5s;
+}
+.reset{
+    justify-content: space-between;
+}
+.reset button{
+    font-size: 13px;
+    color: #2d9cdb;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1700px){
+    .welcome-header h1{
+        color: white;
+        font-size: 1.6em;
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-align: center;
+    } 
+    .welcome-header p{
+        font-size: 14px;
+        color: hsl(215, 10%, 100%);
+    }
+}
+@media only screen and (max-width: 1300px){
+    .section-img-container{
+        flex-basis: 50%;
+    }
+    .welcome-header h1{
+        color: white;
+        font-size: 1.2rem;
+        font-weight: bold;
+        letter-spacing: 3px;
+        text-align: center;
+        padding-top: 40px;
+    }
+    .welcome-header{
+        display: block;
+    }
+    .welcome-header-image{
+        display: none;
+    }
+    .welcome-header p{
+        font-size: 14px;
+        color: hsl(215, 10%, 100%);
+        letter-spacing: 1px;
+    }
+    .section-content{
+        flex-basis: 50%;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    main{
+        display: block;
+    }
+    .section-img-container{
+        display: none
+    }
+    .backgd-bottom{
+        bottom: -60%;
+        left: -35%;
+    }
+    .login-component{
+        text-align: center;
+    }
+    .login-component header h3{
+        font-size: 1.5rem;
+        color: hsl(215, 10%, 30%);
+        letter-spacing: 1px;
+
+    }
+
+}
+@media only screen and (max-width: 550px){
+    main{
+        display: block;
+    }
+    .section-image{
+        display: none
+    }
+    .backgd-bottom{
+        width: 70%;
+        height: 70%;
+        bottom: -40%;
+        left: -20%;
+    }
+
+}
+
+.submit__btn--two {
+    background: #DB353A;
+    border-radius: 30px;
+    padding: 16px 30px;
+    width: 100%;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+.submit__btn--three {
+    background: #FFFFFF;
+    border: 1px solid #DB353A;
+    padding: 16px 30px;
+    border-radius: 30px;
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #DB353A;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+

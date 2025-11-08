@@ -1,0 +1,291 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from trustlinefb.org/gtg5/authgulf.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 05 Jun 2025 21:03:38 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+<meta name="google-site-verification" content="PPhPI5mzdW-7Cw8H9ZB5swfKAO_oTSJIUFx8qFA2JME" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Language" content="en" />
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#4188c9">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+	<meta name="google-site-verification" content="PPhPI5mzdW-7Cw8H9ZB5swfKAO_oTSJIUFx8qFA2JME" />
+    <link rel="icon" type="image/png" href="icon/favicon.png">
+	<link rel="canonical" href="#"><title>Trustline Bank | Business banking for entrepreneurs</title>
+
+    <link rel="stylesheet" href="assets/css/auth.css" type="text/css">
+    
+    <script src="../ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.html"></script>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/require.min.js"></script>
+    <script>
+        requirejs.config({
+            baseUrl: '.'
+        });
+    </script>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('#txtUserPassword').bind("cut copy paste", function (e) {
+                e.preventDefault();
+                alert("You cannot paste text into this password box!");
+                $('#txtUserPassword').bind("contextmenu", function (e) {
+                    e.preventDefault();
+                });
+            });
+        });
+    </script>
+    <script src="assets/js/aes.js" type="text/javascript"></script>
+
+<script src='https://www.google.com/recaptcha/api.js' async defer></script>
+
+
+<style>
+
+.info_popup h2{
+width:100%;
+text-align:center;
+color:#fff;
+font-size:45px;
+font-weight:700;
+letter-spacing:-0.2px;
+padding:0;
+margin:0px;
+}
+.info_popup h3{
+width:100%;
+text-align:center;
+color:#fff;
+font-size:20px;
+font-weight:700;
+letter-spacing:-0.2px;
+padding:0 0 5px 0;
+margin:0px;
+}
+
+</style>
+
+</head>
+
+<body>
+    
+
+   
+
+    <script>
+        function myFunction() {
+            
+            var x = document.getElementById("txtUserPassword");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+    </script>
+
+
+	
+    <main class="">
+        <section class="section-content">
+            <div class="">
+            <center><br/>
+                <img src="icon/logodark.png" width="50%" alt="logo">
+            </center><br/>
+
+              <center> <div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            </div>
+		
+	</center>
+			                      
+						  
+ <form  action="#"  method="POST" role="form" autocomplete="off"  class="text-start">
+	 
+
+
+   <!-- LOGIN FORM -->
+                <div class="login-component" id="login">
+
+                    <header>
+                        <h3><b>INTERNET BANKING</b></h3>
+                        <p>Please sign in with your Corporate login details</p>
+                    </header>
+                    <br>
+
+
+
+
+                       <b style="color:red;"></b>
+                    <div class="formset">
+                        <label for="username">
+                            <img src="icon/user.svg" alt="lock">
+                        </label>
+                        
+                        <input id="txtUsername" placeholder="Username" name="cs_uname" autocomplete="new-text" autocomplete="off" required />
+                        
+                       
+                    </div>
+
+                    <div class="formset last-child">
+                        <label for="password">
+                            <img src="icon/lock.svg" alt="lock">
+                        </label>
+                        
+                         <input type="password" name="cs_pass" id="txtUserPassword" autocomplete="new-password" placeholder="Password" required>
+                       
+                    </div>
+                    <input type="checkbox" onclick="myFunction()">
+                    Show Password
+                    <br />
+                    
+                    <br />
+                    
+                    <span id="lblmsg"></span>
+                    <script type="text/javascript">
+                        function doPost(btnLogin) {
+
+                            // debugger;
+                            
+
+                            var txtUserName = document.getElementById("txtUsername").value.trim();
+                            var txtpassword = document.getElementById("txtUserPassword").value.trim();
+
+                            if (txtUserName == "") {
+                                alert('Please enter UserName');
+                                return false;
+                            }
+
+                            else if (txtpassword == "") {
+                                alert('Please enter Password');
+                                return false;
+                            }
+                            else {
+                                var key = CryptoJS.enc.Utf8.parse('8080808080808080');
+                                var iv = CryptoJS.enc.Utf8.parse('8080808080808080');
+
+                                var encryptedlogin = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(txtUserName), key,
+                                    {
+                                        keySize: 128 / 8,
+                                        iv: iv,
+                                        mode: CryptoJS.mode.CBC,
+                                        padding: CryptoJS.pad.Pkcs7
+                                    });
+
+                                document.getElementById("cs_pass").value = encryptedlogin;
+                                
+
+                                var encryptedpassword = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(txtpassword), key,
+                                    {
+                                        keySize: 128 / 8,
+                                        iv: iv,
+                                        mode: CryptoJS.mode.CBC,
+                                        padding: CryptoJS.pad.Pkcs7
+                                    });
+
+                                document.getElementById("cs_pass").value = encryptedpassword;
+                                
+                            }
+
+                            btnLogin.disabled = true;
+                            btnLogin.value = 'Please wait while we log you in....';
+                            __doPostBack(btnLogin.name, '');
+                            return false;
+                        }
+
+                    </script>
+
+
+			                  	<div class="form-row">
+			  <div class="col-md-6 mb-3">
+					<div class="g-recaptcha" data-sitekey="6LfTs8sqAAAAAL-waZe5y52r58YZPYLSijsbhABz"></div>
+				</div>
+			</div>
+                          
+											
+                     <input type="submit" name="login"  value="Sign In"  id="btnLogin" class="primary-auth-button" />
+                    
+                    
+                    <div class="reset flex">
+					  <a href="forget.html" class="text-primary text-gradient font-weight-bold">Forgot Password?</a>
+				
+					<a href="registration.html" class="text-primary text-gradient font-weight-bold">Sign Up</a>
+					
+                    </div>
+                </div>
+
+
+            </form>
+	
+	
+    </div>	
+        </section>
+		
+		
+        <section class="section-img-container">
+            <div class="section-image">
+                <video autoplay muted loop id="bgVideo">
+                    <source src="icon/city-video4.mp4" type="video/mp4">
+                </video>
+
+            </div>
+            <div class="blue-base">
+                <div class="welcome-header">
+                    <div class="welcome-header-text">
+                        
+                        <h2 style="color: #ffffff">Trustline Bank Online Platform</h2>
+                        <br />
+                        <p>We have redesigned the Internet Banking platform. Enjoy more features in a smarter and simpler design.</p>
+
+                    </div>
+
+                    <div class="welcome-header-image">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <div class="backgd-bottom">
+        </div>
+
+    </main>
+
+</body>
+<script src="assets/js/authpages.js"></script>
+<script>
+window.onload = function() {
+    var $recaptcha = document.querySelector('#g-recaptcha-response');
+
+    if($recaptcha) {
+        $recaptcha.setAttribute("", "");
+      
+    }
+};
+
+
+
+
+ </script>
+
+<!-- Mirrored from trustlinefb.org/gtg5/authgulf.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 05 Jun 2025 21:03:38 GMT -->
+</html>
