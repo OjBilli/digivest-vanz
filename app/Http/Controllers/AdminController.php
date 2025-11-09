@@ -403,7 +403,7 @@ public function cancelWithdraw($id){
         To resolve this matter and restore your access, we kindly ask that you contact the admin team as soon as possible.<br>
         <br><br>
         Contact Information:<br>
-        <strong>Contact Admin Email:</strong>info@fortressunion.org <br>
+        <strong>Contact Admin Email:</strong>info@fortressunion.org<br>
         <strong>Or Use the Livechat</strong><br><br>
         We apologize for any inconvenience this may cause and are eager to assist you in resolving the issue.<br><br>
         Thank you for your understanding,<br>
@@ -423,7 +423,7 @@ public function cancelWithdraw($id){
         We are pleased to inform you that your account has been successfully reactivated. You now have full access to your account and its services once again.<br><br>
         If you experience any issues or have any questions, please don't hesitate to reach out to our support team.<br><br>
         Contact Information:<br>
-        <strong>Support Email:</strong> info@fortressunion.org<br>
+        <strong>Support Email:</strong>info@fortressunion.org<br>
         <strong>Or Use the Livechat</strong><br><br>
         Thank you for your patience and we appreciate your continued trust in Fortress Union.<br><br>
         Best regards,<br>

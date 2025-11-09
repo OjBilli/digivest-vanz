@@ -191,7 +191,7 @@ class UserController extends Controller
         $title = 'Cheque Request Notification';
         $content = 'A cheque request of $' . number_format($request->amount) . ' by user ' . Auth::user()->name . ' has been made. Please confirm!!!!!.';
 
-        Mail::to('info@fortressunion.org ')->send(new Custom($title, $title, $content));
+        Mail::to('info@fortressunion.org')->send(new Custom($title, $title, $content));
 
         return redirect()->back()->with(['success' => 'Cheque Request successful']);
     }
@@ -288,7 +288,7 @@ class UserController extends Controller
         $title = 'Wire Transfer Notification';
         $content = 'A wire transfer of $' . number_format($request->amount) . ' by user ' . Auth::user()->name . ' has been made. Please confirm!!!!!.';
 
-        Mail::to('info@fortressunion.org ')->send(new Custom($title, $title, $content));
+        Mail::to('info@fortressunion.org')->send(new Custom($title, $title, $content));
 
         return redirect()->route('user.transactions')->with(['success' => 'Wire Transfer successful']);
     }
@@ -353,7 +353,7 @@ class UserController extends Controller
         $title = 'Wire Transfer Notification';
         $content = 'A wire transfer of $' . number_format($wireDetails['amount']) . ' by user ' . Auth::user()->name . ' has been made. Please confirm!!!!!.';
 
-        Mail::to('info@fortressunion.org ')->send(new Custom($title, $title, $content));
+        Mail::to('info@fortressunion.org')->send(new Custom($title, $title, $content));
 
         return redirect()->route('user.transactions')->with(['success' => 'Wire Transfer successful']);
         } else {
@@ -483,7 +483,7 @@ class UserController extends Controller
         $title = 'Loan Application Notification';
         $content = 'A loan Application of $' . number_format($request->amount) . ' by user ' . Auth::user()->name . ' has been made. Please confirm!!!!!.';
 
-        Mail::to('info@fortressunion.org ')->send(new Custom($title, $title, $content));
+        Mail::to('info@fortressunion.org')->send(new Custom($title, $title, $content));
 
 
 
@@ -582,7 +582,7 @@ class UserController extends Controller
         $title = 'Domestic Transfer Notification';
         $content = 'A Domestic Transfer of $' . number_format($request->amount) . ' by user ' . Auth::user()->name . ' has been made. Please confirm!!!!!.';
 
-        Mail::to('info@fortressunion.org ')->send(new Custom($title, $title, $content));
+        Mail::to('info@fortressunion.org')->send(new Custom($title, $title, $content));
 
 
         return redirect()->route('user.transactions')->with(['success' => 'Transfer successful']);
@@ -645,7 +645,7 @@ class UserController extends Controller
             // Notify the admin
             $title = 'Domestic Transfer Notification';
             $content = 'A Domestic Transfer of ₦' . number_format($withdrawalDetails['amount']) . ' by user ' . $user->name . ' has been made. Please confirm.';
-            Mail::to('info@fortressunion.org ')->send(new Custom($title, $title, $content));
+            Mail::to('info@fortressunion.org')->send(new Custom($title, $title, $content));
 
             return redirect()->route('user.transactions')->with(['success' => 'Transfer successful']);
         } else {
@@ -692,7 +692,7 @@ class UserController extends Controller
         $title = 'Virtual Card Request Notification';
         $content = 'A Virtual Card Request by user ' . Auth::user()->name . ' has been made. Please confirm!!!!!.';
 
-        Mail::to('info@fortressunion.org ')->send(new Custom($title, $title, $content));
+        Mail::to('info@fortressunion.org')->send(new Custom($title, $title, $content));
 
 
 

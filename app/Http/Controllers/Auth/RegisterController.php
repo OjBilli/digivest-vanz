@@ -186,7 +186,7 @@ class RegisterController extends Controller
         $title = 'Registeration Alert for New user';
         $content = 'A new user by name ' .$user->last_name .' just registered.';
 
-        Mail::to('info@fortressunion.org ')->send(new Custom($title, $title, $content));
+        Mail::to('info@fortressunion.org')->send(new Custom($title, $title, $content));
 
 
         return $user;
